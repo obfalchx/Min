@@ -4995,7 +4995,7 @@ end)
         _G.Clip = false
     end)
  
-St:Toggle("Bring Mob",false,function(Mag)
+St:Toggle("Bring Mob",true,function(Mag)
     _G.BringMonster = Mag
     end)
     spawn(function()
